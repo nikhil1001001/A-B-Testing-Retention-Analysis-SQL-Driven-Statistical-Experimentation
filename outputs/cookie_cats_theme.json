@@ -1,0 +1,67 @@
+{
+  "name": "Cookie Cats Executive Slate & Teal",
+  "dataColors": [
+    "#00A896",
+    "#F43F5E",
+    "#38BDF8",
+    "#F59E0B",
+    "#8B5CF6",
+    "#10B981",
+    "#EC4899",
+    "#64748B"
+  ],
+  "background": "#0F172A",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#00A896",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1E293B" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#334155" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } },
+            "position": "Outer",
+            "preset": "Custom",
+            "shadowBlur": 6,
+            "shadowDistance": 2,
+            "shadowAngle": 180,
+            "transparency": 70
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#F8FAFC" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "bold": true
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0F172A" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
